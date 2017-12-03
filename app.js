@@ -20,18 +20,27 @@ $(document).ready(function() {
 
 
   function colorChanged(value) {
-    console.log("CALLED: ", value);
     document.getElementById("colorValue").innerHTML = value;
     document.getElementById("colorCanvas").style.backgroundColor = value;
+    console.log("CALLED: ", value);
   }
 
   $('input[type="color"]').on('change', function() {
     colorChanged($(this).val())
-  })
+    console.log($(this).val())
+  });
 
-function pickedColor() {
-  $('#colorCanvas').css('background-color')
-}
+
+  $('.grid').mouseover(function() {
+    $(this).css('background-color', '.val()')
+  });
+
+
+
+
+
+
+
 
 
 })

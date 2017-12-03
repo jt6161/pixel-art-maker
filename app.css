@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 #container {
   position: relative;
   top: 30px;
@@ -19,5 +23,5 @@
 }
 
 #colorCanvas {
-    background-color: #000000
+  background-color: #000000
 }
