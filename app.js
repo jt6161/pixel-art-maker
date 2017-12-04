@@ -30,11 +30,10 @@ $(document).ready(function() {
     console.log($(this).val())
   });
 
-
-  $('.grid').mouseover(function() {
-    $(this).css('background-color', '.val()')
-  });
-
+  function pickedColor(pickedColor) {
+  document.getElementById("colorCanvas").style.backgroundColor = pickedColor;
+  console.log(pickedColor)
+  }
 
 
 
