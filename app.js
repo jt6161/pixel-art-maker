@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 
-  createGrid(40)
+  createGrid(50)
 
   function createGrid(x) {
     for (let rows = 0; rows < x; rows++) {
@@ -10,8 +10,8 @@ $(document).ready(function() {
         $("#container").append("<div class='grid'></div>");
       };
     };
-    $(".grid").width(600 / x);
-    $(".grid").height(600 / x);
+    $(".grid").width(800 / x);
+    $(".grid").height(650 / x);
   };
 
   $('.grid').mouseover(function() {

@@ -1,15 +1,18 @@
 body {
-  background-color: white;
+  background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0, linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0, linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0, linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+  background-size: 20px 20px;
+  margin: 50px;
 }
 
 #container {
+  background-color: white;
   position: relative;
   top: 30px;
-  outline: 2px solid #000;
+  outline: 5px solid #666;
   font-size: 0;
   margin: auto;
-  height: 600px;
-  width: 600px;
+  height: 650px;
+  width: 800px;
   padding: 0;
   border: none;
 }
@@ -22,6 +25,34 @@ body {
   display: inline-block;
 }
 
+#palette {
+  outline: 5px solid #666;
+  width: 275px;
+  height: 275px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #fff;
+  align-content: center;
+}
+
 #colorCanvas {
   background-color: #000000;
+  margin: 2px;
+  outline: 1px solid #000;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: monospace;
+  color: #ff0080;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1em;
+  font-family: monospace;
+  color: #ff0080;
+  padding: 5px;
 }
