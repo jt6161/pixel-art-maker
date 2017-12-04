@@ -22,17 +22,15 @@ $(document).ready(function() {
   function colorChanged(value) {
     document.getElementById("colorValue").innerHTML = value;
     document.getElementById("colorCanvas").style.backgroundColor = value;
-    console.log("CALLED: ", value);
   }
 
   $('input[type="color"]').on('change', function() {
     colorChanged($(this).val())
-    console.log($(this).val())
   });
 
   $('.grid').mouseover(function() {
-  $(this).css('background-color', document.getElementById( 'picked' ).value )
-});
+    $(this).css('background-color', document.getElementById('picked').value)
+  });
 
 
 
